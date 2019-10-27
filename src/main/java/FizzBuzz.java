@@ -3,7 +3,7 @@ public class FizzBuzz {
         String result = "";
         if (s == 3) {
             result = "Fizz";
-        } else {
+        } else if (s == 5) {
             result = "Buzz";
         }
         return result;
