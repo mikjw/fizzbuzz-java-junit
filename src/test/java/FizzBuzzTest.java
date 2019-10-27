@@ -22,4 +22,13 @@ public class FizzBuzzTest {
 
         Assert.assertThat(out, CoreMatchers.is("Buzz"));
     }
+
+    @Test
+    public void testFizzBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+
+        String out = fizzBuzz.output(45);
+
+        Assert.assertThat(out, CoreMatchers.is("FizzBuzz"));
+    }
 }
